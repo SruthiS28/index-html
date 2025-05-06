@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: center; /* Center the logo horizontally */
+    align-items: center; /* Center the logo vertically */
+    padding: 10px 0; /* Reduced padding to make header smaller */
+    height: auto; /* Automatically adjust height based on content */
+}
+
+header img {
+    max-width: 700px; /* Set a max width for the logo */
+    height: 200; /* Maintain aspect ratio */}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2
+}
